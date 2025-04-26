@@ -1,12 +1,9 @@
 class Animal {
-  //private variable
   String?
-  _population; // this is how we declare the private varible in dart because in dart we do not have any private or public keywords like public or private
-  //public
-  String name;
-  String eating_category;
+  name; // if we add ? then we can declare direclty inside the constructor without using this keyword
+  String? eating_category;
 
-  Animal(this.name, this.eating_category) {
+  Animal(name, eating_category) {
     // this is the example of the parameterized constructor
     print("Animal is a herbivore");
   }
@@ -21,7 +18,10 @@ class Animal {
 }
 
 void main() {
-  Animal one = Animal("lion", "Carnivore");
+  Animal one = Animal(
+    null,
+    "Carnivore",
+  ); // the benefit of using the ? in the variable due to which we can put null values in the object
   print(one.name);
   print(one.eating_category);
   one.dangerous_animal();
