@@ -63,7 +63,7 @@ Here, I practice the Dart programming language step-by-step, moving from **begin
 ## 📞 Connect with Me
 
 - 👨‍💻 GitHub: [@ayushkrrana](https://github.com/ayushkrrana)
-- 🌐 LinkedIn: [Your LinkedIn Profile](#) *(update if you want!)*
+- 🌐 LinkedIn: [https://www.linkedin.com/in/ayush-kumar-6b528b249/](#) *(update if you want!)*
 
 ---
 
