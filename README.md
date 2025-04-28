@@ -30,6 +30,7 @@ Here, I practice the Dart programming language step-by-step, moving from **begin
 | **stringinterpolation.dart**  | Exploring String Interpolation                |
 | **var.dart**                  | Practice with `var`, `dynamic`, and types     |
 | **Inheritance**               | Practice with Multilevel Inheritance          |
+| **MIXINS**                    | Learn mixin concepts with the class           |
 ---
 
 ## 📌 Topics Covered
