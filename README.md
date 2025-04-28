@@ -29,7 +29,7 @@ Here, I practice the Dart programming language step-by-step, moving from **begin
 | **specialdatatype.dart**      | Playing with special Dart datatypes           |
 | **stringinterpolation.dart**  | Exploring String Interpolation                |
 | **var.dart**                  | Practice with `var`, `dynamic`, and types     |
-
+| **Inheritance**               | Practice with Multilevel Inheritance          |
 ---
 
 ## 📌 Topics Covered
