@@ -5,8 +5,8 @@ class Vechile {
   bool isengineon = true;
   bool isLighton = true;
 
-  void accelerate() {
-    speed += 44;
+  int accelerate() {
+    return speed += 44;
   }
 }
 
@@ -15,12 +15,18 @@ class Car extends Vechile {
   void printsomething() {
     print(no_of_wheels);
   }
+
+  @override // it is optional to use after this when we use the car class and object and run the accelerate function it will do 55+33 instead of 55+44
+  int accelerate() {
+    return speed += 33;
+  }
 }
 
 void main() {
   Car bmw = Car();
   print(bmw.isengineon);
   print(bmw.speed);
+  print(bmw.accelerate());
   Vechile mercedes = Car();
   print(
     (mercedes as Car).no_of_wheels,
