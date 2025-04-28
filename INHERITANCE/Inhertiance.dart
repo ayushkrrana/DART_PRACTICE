@@ -1,6 +1,6 @@
 // dart do not support any multiple inheritance
 
-class Vechile {
+class Vehicle {
   int speed = 55;
   bool isengineon = true;
   bool isLighton = true;
@@ -10,7 +10,7 @@ class Vechile {
   }
 }
 
-class Car extends Vechile {
+class Car extends Vehicle {
   int no_of_wheels = 4;
   void printsomething() {
     print(no_of_wheels);
@@ -27,7 +27,7 @@ void main() {
   print(bmw.isengineon);
   print(bmw.speed);
   print(bmw.accelerate());
-  Vechile mercedes = Car();
+  Vehicle mercedes = Car();
   print(
     (mercedes as Car).no_of_wheels,
   ); // here we create object mercedes of car in vechile so if we want to use the function of the car we have to define the mercedes as Car in the vechile object class
