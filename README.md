@@ -32,6 +32,7 @@ Here, I practice the Dart programming language step-by-step, moving from **begin
 | **Inheritance**               | Practice with Multilevel Inheritance          |
 | **MIXINS**                    | Learn mixin concepts with the class           |
 | **CLASS MODIFIERS**           | Learn various class modifiers                 |
+| **FUTURES**                   | Learn concepts of futures                     |
 ---
 
 ## 📌 Topics Covered
