@@ -41,10 +41,16 @@ Here, I practice the Dart programming language step-by-step, moving from **begin
 - ✏️ Dart Basics
 - 🔁 Control Flow (If-else, Switch, Loops)
 - 🛠️ Functions
-- 🧱 Object-Oriented Programming (Classes, Objects, Constructors)
+- 🔁 Object-Oriented Programming (Classes, Objects, Constructors)
 - 🛡️ Null Safety
 - 🧩 Special Datatypes
 - 📝 String Manipulations
+- 🔁var.dart
+- 📝Inheritance
+- 🧩Mixins
+- 🔁Class Modifiers
+- 🧩Futures
+- 🛡️Extensions
 
 ---
 
